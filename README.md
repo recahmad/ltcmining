@@ -1,0 +1,2 @@
+# ltcmining
+mining lite coin
