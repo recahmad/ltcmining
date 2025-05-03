@@ -7,4 +7,3 @@ what u need
     pip install subprocess
     pip install tkinter
   
-LTwceJQAz51wemJ4h5hZUMetPfLM25dB5G
