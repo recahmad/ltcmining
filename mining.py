@@ -46,7 +46,7 @@ class MiningApp:
 
     def run_mining(self, wallet_address):
         # Command to start mining with CGMiner (assuming it's in the system PATH)
-        cmd = f"cgminer -o stratum+tcp://your-mining-pool-url -u {wallet_address} -p x -S scrypt"
+        cmd = f"cgminer -o stratum+tcp://us.mining.prohashing.com:3333 -u {wallet_address} -p recahmad -S a=scrypt"
         
         # Start the mining process
         self.mining_process = subprocess.Popen(cmd, shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
